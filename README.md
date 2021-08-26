@@ -5,4 +5,6 @@
  
  (for performance reasons, price is only updated on first run or a change of parameters).
  
+ (Todo: add platinum)
+ 
  More info at https://denneth.nl/gold-calculator/
