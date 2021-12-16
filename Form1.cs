@@ -136,7 +136,7 @@ namespace Gold
                     client = new RestClient("https://www.goldapi.io/api/" + metal + "/EUR/" + golddate);
                 }
                 var request = new RestRequest(Method.GET);
-                request.AddHeader("x-access-token", "goldapi-4c88kgtsksspmo0g-io");
+                request.AddHeader("x-access-token", "");
                 request.AddHeader("Content-Type", "application/json");
                 IRestResponse response = client.Execute(request);
                 //MessageBox.Show(response.ErrorMessage);
